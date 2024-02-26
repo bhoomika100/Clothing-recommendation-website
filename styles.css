@@ -1,0 +1,236 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(download\ \(1\).jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color:blanchedalmond;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-right: 1.5rem;
+}
+
+header nav a {
+    color:black;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+main h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+main p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+
+#card1 {
+    background-image: url(img2.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-basis: 30%;
+    padding: 2rem;
+    text-align: center;
+    transition: flex-basis 0.3s ease-out;
+}
+#card2 {
+    background-image: url(img5.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-basis: 30%;
+    padding: 2rem;
+    text-align: center;
+    transition: flex-basis 0.3s ease-out;
+}
+#card3 {
+    background-image: url(img8.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-basis: 30%;
+    padding: 2rem;
+    text-align: center;
+    transition: flex-basis 0.3s ease-out;
+}
+.card:hover {
+    flex-basis: 40%; /* change this line */
+}
+#card1:hover {
+    flex-basis: 45%;
+}
+
+#card2:hover {
+    flex-basis: 45%;
+}
+
+#card3:hover {
+    flex-basis: 45%;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.small-card-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 2rem auto;
+    flex-wrap: nowrap; /* add this line */
+}
+/*............SMALL CARD................*/
+.small-card1 {
+    background-image: url(img1.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-basis: 30%; /* change this line */
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    transition: flex-basis 0.3s ease-out;
+}
+.small-card1:hover {
+    flex-basis: 40%; 
+}
+.small-card2 {
+    background-image: url(img13.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-basis: 30%; /* change this line */
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    transition: flex-basis 0.3s ease-out;
+}
+.small-card2:hover {
+    flex-basis: 40%; 
+}
+.small-card3 {
+    background-image: url(img15.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-basis: 30%; /* change this line */
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    transition: flex-basis 0.3s ease-out;
+}
+.small-card3:hover {
+    flex-basis: 40%; 
+}
+.small-card4 {
+    background-image: url(img3.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-basis: 30%; /* change this line */
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    transition: flex-basis 0.3s ease-out;
+}
+.small-card4:hover {
+    flex-basis: 40%; 
+}
+.small-card5 {
+    background-image: url(img11.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-basis: 30%; /* change this line */
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    transition: flex-basis 0.3s ease-out;
+}
+.small-card5:hover {
+    flex-basis: 40%; 
+}
+.small-card6 {
+    background-image: url(img14.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-basis: 30%; /* change this line */
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    transition: flex-basis 0.3s ease-out;
+}
+.small-card6:hover {
+    flex-basis: 40%; 
+}
+
+
+.small-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.small-card p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
